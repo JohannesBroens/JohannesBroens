@@ -54,7 +54,7 @@ Welcome to my GitHub! I'm Johannes, a data-driven problem solver with a passion 
   - Designed U-Net architectures for geospatial analysis, contributing to climate change research.
 
 - **Outage Data Analysis**  
-  - Built ServiceNow dashboards and enhanced data quality for Novo Nordisk.
+  - Built various dashboards and enhanced data quality for Novo Nordisk.
 
 ---
 
