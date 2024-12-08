@@ -26,7 +26,7 @@ Welcome to my GitHub profile! I'm Johannes, a detail-oriented data scientist wit
 - **Description:** Built an MLP (Multi-Layer Perceptron) from scratch in C, utilizing OpenMP for parallelization and CUDA for GPU acceleration. Optimized neural network training performance, focusing on high-efficiency computation.
 
 ### 💡 **Outage Data Analysis at Novo Nordisk**
-- **Tech Stack:** Python, Tableau, POInT  
+- **Tech Stack:** Python, Tableau  
 - **Description:** Designed dashboards for trending outage data and improved data quality through Python-based analysis. Enhanced visibility and analytics for production workflows.
 
 ### ⚙️ **SCOM & SquaredUp Integration**
@@ -39,7 +39,7 @@ Welcome to my GitHub profile! I'm Johannes, a detail-oriented data scientist wit
 
 - **Programming Languages:** Python, R, SQL, C
 - **Machine Learning Tools:** PyTorch, TensorFlow, JAX
-- **Data Analytics & Visualization:** Matplotlib, Seaborn, Tableau, Alteryx
+- **Data Analytics & Visualization:** Matplotlib, Seaborn
 - **Systems & Tools:** UNIX, Git, CUDA, OpenMP, Virtual Environments
 
 ---
