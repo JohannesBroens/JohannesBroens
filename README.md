@@ -1,76 +1,96 @@
-# 👨‍💻 Johannes Brøns Christensen
+# Johannes Brøns Christensen
 
-🎯 **Machine Learning & Data Scientist | IT Operations Manager**
+## Professional Profile
 
-Welcome to my GitHub profile! I'm Johannes, a detail-oriented data scientist with a strong background in computer science, machine learning, and data analytics. I focus on developing practical, data-driven solutions for real-world problems across a range of domains. Here you will find my work on projects related to image processing, climate data, machine learning, and system optimization.
-
----
-
-## 🌟 Featured Projects
-
-### 🎓 **Bachelor Thesis: Autonomous Climatological Quality Control**
-- **Collaboration with:** Danish Meteorological Institute  
-- **Tech Stack:** Python, ML, Data Preprocessing  
-- **Description:** Developed a machine learning solution for climate data quality control, helping improve predictive modeling and long-term planning. This project emphasizes my ability to work with large datasets and apply machine learning to environmental challenges.
-
-### 🌍 **U-Net Satellite Segmentation**
-- **Tech Stack:** Python, U-Net, Satellite Imagery  
-- **Description:** Developed a U-Net model for high-resolution satellite image segmentation, focused on Greenland's coastline. The insights gained from this work support precise mapping for decision-making in geospatial contexts.
-
-### 📚 **Fake News Detection**
-- **Tech Stack:** Python, LinearSVC, CNN, GloVe  
-- **Description:** Designed a pipeline using machine learning techniques to distinguish between real and fake news articles. This project showcased my skills in text classification and model evaluation across diverse datasets.
-
-### 🖥 **ML-in-C (Personal Project)**
-- **Tech Stack:** C, OpenMP, CUDA  
-- **Description:** Built an MLP (Multi-Layer Perceptron) from scratch in C, utilizing OpenMP for parallelization and CUDA for GPU acceleration. Optimized neural network training performance, focusing on high-efficiency computation.
-
-### 💡 **Outage Data Analysis at Novo Nordisk**
-- **Tech Stack:** Python, Tableau  
-- **Description:** Designed dashboards for trending outage data and improved data quality through Python-based analysis. Enhanced visibility and analytics for production workflows.
-
-### ⚙️ **SCOM & SquaredUp Integration**
-- **Tech Stack:** System Monitoring, SCOM, SquaredUp  
-- **Description:** Led the setup of monitoring solutions for critical infrastructure, integrating system diagnostics with performance metrics to ensure seamless operation.
+Machine Learning and Data Scientist with a Bachelor of Science from the University of Copenhagen (DIKU). Experienced in the development of data pipelines, analytical models, and visualization frameworks within industrial and regulated environments. Technical expertise includes deep learning, high-performance computing, and statistical modeling, with a focus on transforming complex datasets into actionable operational insights.
 
 ---
 
-## 🧰 Technical Skills
+## Technical Skills
 
-- **Programming Languages:** Python, R, SQL, C
-- **Machine Learning Tools:** PyTorch, TensorFlow, JAX
-- **Data Analytics & Visualization:** Matplotlib, Seaborn
-- **Systems & Tools:** UNIX, Git, CUDA, OpenMP, Virtual Environments
-
----
-
-## 🧑‍🏫 Teaching Experience
-
-### **Teaching Assistant** — University of Copenhagen  
-**Aug 2021 — Feb 2023**  
-Instructed courses on statistics, data science, and theory of science. Helped students with programming assignments and contributed to course development.
-
-### **Mentor** — MentorDanmark  
-**Feb 2020 — Jul 2021**  
-Mentored high school students in mathematics and other subjects, guiding them through academic challenges.
+* **Programming Languages:** Python (PyTorch, NumPy, Pandas, TensorFlow), C, SQL, R
+* **Machine Learning & Analytics:** PyTorch Lightning, Scikit-Learn, XGBoost, MLflow, Time-series analysis, Anomaly detection
+* **Data Engineering & Visualization:** ETL pipelines, Alteryx, Power BI, Matplotlib, Plotly, Grafana, SquaredUp
+* **Systems & DevOps:** Linux/UNIX, Git, Docker, CUDA, OpenMP, MLOps principles, REST APIs
 
 ---
 
-## 🎓 Education
+## Professional Experience
 
-### **B.Sc. in Machine Learning & Data Science**  
-**University of Copenhagen** (Sep 2019 — Aug 2023)  
-- Specialized in deep learning, climate data quality control, medical image analysis, and satellite image segmentation.
-- **Notable Projects:** Fake news detection, climate data quality control, satellite segmentation, medical image diagnosis.
+### Novo Nordisk | Data & Analytics Specialist / Associate IT Operation Manager
 
----
+**January 2024 – January 2026**
 
-## 🌐 Connect with Me
-- 📧 [Email](mailto:j.brons.christensen@gmail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/johannes-broens-christensen/)
-- 🔗 [GitHub](https://github.com/JohannesBroens/)
+* Developed Python-based analytics tools for operational insights in IT/OT environments.
+* Engineered SQL data models and automated data preparation workflows for large-scale industrial reporting.
+* Conducted statistical analysis on incident and root-cause trends to drive infrastructure reliability.
+* Implemented monitoring solutions integrating SCOM, SquaredUp, and Grafana for critical infrastructure.
 
 ---
 
-🧑‍💻 **“Every line of code is a step toward solving the unsolvable.”**  
-Let’s collaborate on innovative solutions!
+## Selected Projects
+
+### Hidden Markov Model for Visual Attention Analysis
+
+Developed a comprehensive Hidden Markov Model (HMM) to simulate and analyze visual attention patterns using neural spike data.
+
+* Implemented forward simulation algorithms to generate synthetic neural activity.
+* Designed exact inference via variable elimination and message passing algorithms.
+* Applied approximate inference using logistic regression and implemented a hard-assignment EM algorithm for parameter learning.
+* Validated the framework across both simulated and real-world neural datasets.
+
+### Satellite Image Segmentation for Arctic Mapping
+
+Collaborative research project with NASA and the University of Copenhagen (DIKU and IGN) focused on Greenland’s coastline.
+
+* Developed a U-Net architecture for high-resolution segmentation of satellite imagery.
+* Achieved a spatial accuracy of 0.87 IoU (Intersection over Union).
+* Optimized inference speed for large-scale geospatial datasets.
+
+### Automated Quality Control of Meteorological Data (BSc Thesis)
+
+Conducted in collaboration with the Danish Meteorological Institute (DMI) to automate the validation of sensor data.
+
+* Designed and benchmarked three distinct machine learning architectures to detect faulty sensor readings.
+* Documented and analyzed DMI's ETL pipelines and manual validation processes.
+* Developed a solution to reduce manual overhead for climatologists through automated anomaly detection.
+
+### Production Line Anomaly Detection
+
+Developed predictive maintenance tools for manufacturing environments.
+
+* Built an LSTM-based (Long Short-Term Memory) recurrent neural network for early equipment failure detection.
+* Integrated models with OPC-UA data streams for real-time signal monitoring and processing.
+
+### High-Performance ML Implementation (ML-in-C)
+
+Personal project focused on the fundamentals of computational efficiency in neural networks.
+
+* Implemented a Multi-Layer Perceptron (MLP) from scratch in C.
+* Utilized OpenMP for CPU multi-threading and CUDA for GPU acceleration to optimize training performance.
+
+---
+
+## Education
+
+### B.Sc. in Machine Learning & Data Science
+
+**University of Copenhagen (2019 – 2023)**
+
+* **Key Coursework:** Algorithms & Data Structures, High Performance Programming, Probability Theory & Statistics, Linear Algebra, Advanced Deep Learning, Models for Complex Systems.
+* **Specialization:** Medical Image Analysis, Lebesgue Integral & Measure Theory, and Satellite Segmentation.
+
+---
+
+## Academic Service & Teaching
+
+* **Teaching Assistant:** Empirical Methodologies & Theory of Science (2021 – 2023). Guided students through research methodology and academic reasoning.
+* **Teaching Assistant:** Programming Intro Course (2021). Supported first-year students in Python and programming fundamentals.
+* **Student Mediator:** Represented the Machine Learning & Data Science program at the Department of Computer Science (DIKU), coordinating outreach and curriculum communication.
+
+---
+
+## Contact and Links
+
+* **Email:** j.brons.christensen@gmail.com
+* **LinkedIn:** [linkedin.com/in/johannes-broens-christensen/](https://linkedin.com/in/johannes-broens-christensen/)
