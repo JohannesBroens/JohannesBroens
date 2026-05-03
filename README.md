@@ -1,5 +1,7 @@
 # Johannes Brøns Christensen
 
+> **Now (May 2026):** Junior Data & ML Engineer at **Epiq Energy ApS**, Copenhagen — applied ML in the European energy domain.
+
 Machine learning engineer with a mathematical and statistical foundation, working across deep learning, time-series forecasting, high-performance computing, and scientific data analysis. B.Sc. in Machine Learning & Data Science from the University of Copenhagen (DIKU), with coursework in measure theory, probabilistic inference, and numerical optimization. I build systems that bridge theoretical rigour and production-grade engineering — from CUDA-accelerated neural networks in C to walk-forward backtesting pipelines for European electricity markets.
 
 ---
@@ -19,9 +21,15 @@ Machine learning engineer with a mathematical and statistical foundation, workin
 
 ## Professional Experience
 
+### Epiq Energy ApS — Junior Data & ML Engineer
+
+**May 2026 – present**
+
+Applied ML in the European energy domain.
+
 ### Novo Nordisk — Data & Analytics Specialist / Associate IT Operations Manager
 
-**January 2024 – January 2026**
+**January 2024 – April 2026**
 
 * Built Python analytics tooling for operational insights across IT/OT environments in a regulated pharmaceutical setting.
 * Engineered SQL data models and automated ETL workflows for large-scale industrial reporting.
