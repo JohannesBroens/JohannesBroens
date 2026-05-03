@@ -75,10 +75,6 @@ Bachelor's thesis in collaboration with the Danish Meteorological Institute (DMI
 * Analysed DMI's ETL pipelines and manual validation workflows to identify automation opportunities.
 * Reduced manual overhead for climatologists through automated anomaly detection on Greenlandic weather station data.
 
-### Uncertainty Estimation in Meteorological Measurements — [`MetaMeter`](https://github.com/JohannesBroens/MetaMeter)
-
-Extension of the climate data QC work toward formal uncertainty quantification in global meteorological observations. Combines statistical methods with ML for quality control and data homogenisation.
-
 ### Hidden Markov Model for Visual Attention Analysis
 
 Probabilistic graphical model for simulating and analysing visual attention patterns from neural spike data.
