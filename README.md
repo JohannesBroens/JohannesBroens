@@ -2,7 +2,7 @@
 
 > **Now (May 2026):** Junior Data & ML Engineer at **Epiq Energy ApS**, Copenhagen — applied ML in the European energy domain.
 
-Machine learning engineer with a mathematical and statistical foundation, working across deep learning, time-series forecasting, high-performance computing, and scientific data analysis. B.Sc. in Machine Learning & Data Science from the University of Copenhagen (DIKU), with coursework in measure theory, probabilistic inference, and numerical optimization. I build systems that bridge theoretical rigour and production-grade engineering — from CUDA-accelerated neural networks in C to walk-forward backtesting pipelines for European electricity markets.
+Machine learning engineer with a mathematical and statistical foundation, working across deep learning, time-series forecasting, high-performance computing, and scientific data analysis. B.Sc. in Machine Learning & Data Science from the University of Copenhagen (DIKU), with coursework in measure theory, probability theory, and high-performance programming. I build systems that bridge theoretical rigour and production-grade engineering — from CUDA-accelerated neural networks in C to walk-forward backtesting pipelines for European electricity markets.
 
 ---
 
@@ -13,9 +13,9 @@ Machine learning engineer with a mathematical and statistical foundation, workin
 | | |
 |---|---|
 | **Mathematics & Statistics** | Probability Theory & Statistics, Linear Algebra, Lebesgue Integral & Measure Theory, Models for Complex Systems |
-| **Machine Learning & AI** | Advanced Deep Learning, Medical Image Analysis, Probabilistic Graphical Models |
+| **Machine Learning & AI** | Introduction to Machine Learning, Advanced Deep Learning, Medical Image Analysis |
 | **Computer Science** | Algorithms & Data Structures, High-Performance Programming (C, CUDA, OpenMP) |
-| **Applied Research** | Satellite Image Segmentation (collab. with NASA & IGN), BSc Thesis with DMI |
+| **Applied Research** | Satellite Image Segmentation (collab. with IGN), BSc Thesis with DMI |
 
 ---
 
@@ -27,15 +27,15 @@ Machine learning engineer with a mathematical and statistical foundation, workin
 
 Applied ML in the European energy domain.
 
-### Novo Nordisk — Data & Analytics Specialist / Associate IT Operations Manager
+### Novo Nordisk — Associate IT Operation Manager
 
-**January 2024 – April 2026**
+**January 2024 – January 2026**
 
-* Built Python analytics tooling for operational insights across IT/OT environments in a regulated pharmaceutical setting.
-* Engineered SQL data models and automated ETL workflows for large-scale industrial reporting.
-* Applied statistical analysis on incident and root-cause trends to improve infrastructure reliability.
-* Deployed monitoring solutions (SCOM, SquaredUp, Grafana) for real-time critical infrastructure observability.
-* Developed an LSTM-based recurrent neural network for predictive maintenance, integrated with OPC-UA data streams.
+* Managed local IT infrastructure, automation (OT) systems, and MES support in a GMP-regulated pharmaceutical manufacturing environment.
+* Performed statistical analysis on incident and root-cause trends to support reliability improvements.
+* Deployed monitoring solutions (SCOM, SquaredUp, Grafana) for real-time IT/OT infrastructure observability.
+* Self-initiated cross-team data & analytics work: built Python tooling and SQL data models for operational insights.
+* Self-initiated: developed an LSTM-based recurrent neural network for predictive maintenance, integrated with OPC-UA data streams.
 
 ---
 
@@ -48,36 +48,36 @@ XGBoost-based day-ahead price forecasting pipeline for 21 European bidding zones
 * Dual forecasting modes: single-model and per-hour XGBoost with lag features respecting market gate closures.
 * Feature engineering from heterogeneous sources: Energinet, ENTSO-E Transparency Platform, and Open-Meteo weather data (temperature, wind speed, solar irradiance).
 * Walk-forward backtesting engine with transaction cost modelling across multiple bidding zones.
-* 108 unit tests, data completeness gates, imputation monitoring, and model drift detection.
+* 108 unit tests, data completeness gates, imputation audit logging, and model drift detection.
 
 ### Multi-Language ML Benchmark — [`ml-language-playground`](https://github.com/JohannesBroens/ml-language-playground)
 
-Systematic benchmarking of MLP and CNN (LeNet-5) implementations across C, Rust, and Python — 18 variants spanning CPU and GPU backends.
+Systematic benchmarking of neural networks (MLP, CNN/LeNet-5) and a broader algorithm catalogue (regression, tree ensembles, sequence models, Gaussian Process, HMM, unsupervised) across C, Rust, and Python — CPU and GPU backends.
 
 * Custom CUDA kernels, cuBLAS FFI bindings (Rust), cuDNN integration, and OpenMP parallelisation.
-* Peak GPU throughput: 8.92M samples/s (C CUDA), 8.21M samples/s (Rust cuBLAS); 5–15x GPU advantage over CPU at scale.
+* Peak GPU throughput: 8.92M samples/s (C CUDA), 8.21M samples/s (Rust cuBLAS); 5–15× GPU advantage over CPU at scale.
 * Mathematical documentation of forward/backward propagation, im2col convolution, and pooling operations.
 * Automated benchmarking pipeline with reproducible caching and successive-halving hyperparameter tuning.
 
 ### Satellite Image Segmentation for Arctic Mapping — [`Automatic-Satelitte-Island-Discovery`](https://github.com/JohannesBroens/Automatic-Satelitte-Island-Discovery)
 
-Collaborative research with NASA, IGN, and DIKU on segmentation of Greenland's coastline from satellite imagery.
+Project outside course scope at DIKU, in collaboration with the Department of Geosciences and Natural Resource Management (IGN) at the University of Copenhagen — semantic segmentation of land regions along Greenland's coastline.
 
-* U-Net architecture (PyTorch, segmentation_models_pytorch) achieving 0.87 IoU on high-resolution ortho-rectified .tif imagery.
-* Geospatial preprocessing with Rasterio and GeoPandas; shapefile-based mask generation.
-* Trained on NVIDIA RTX A6000 (CUDA 11.8); optimised inference for large-scale geospatial datasets.
+* U-Net architecture (PyTorch, segmentation_models_pytorch) on high-resolution 4-band PlanetScope imagery; test-set accuracy 0.92, IoU 0.53.
+* Geospatial preprocessing with Rasterio and GeoPandas; shapefile-based mask generation from IGN-provided ground truth.
+* Trained on an NVIDIA RTX A6000 GPU cluster (CUDA 11.8); optimised inference for large-scale geospatial datasets.
 
 ### Automated Quality Control of Climate Data (BSc Thesis) — [`Climate-Data-QC`](https://github.com/JohannesBroens/Machine-Learning-based-Automatic-Quality-Control-of-Greenlantic-Climate-Data)
 
 Bachelor's thesis in collaboration with the Danish Meteorological Institute (DMI).
 
-* Designed and benchmarked Random Forest, XGBoost, Logistic Regression, and MLP architectures for faulty sensor detection.
+* Designed and benchmarked three structurally distinct ML architectures for faulty sensor detection.
 * Analysed DMI's ETL pipelines and manual validation workflows to identify automation opportunities.
 * Reduced manual overhead for climatologists through automated anomaly detection on Greenlandic weather station data.
 
 ### Hidden Markov Model for Visual Attention Analysis
 
-Probabilistic graphical model for simulating and analysing visual attention patterns from neural spike data.
+Probabilistic graphical model for simulating and analysing visual attention patterns from neural spike data (course project: *Models for Complex Systems*).
 
 * Forward simulation, exact inference (variable elimination, message passing), and approximate inference (logistic regression).
 * Hard-assignment EM algorithm for parameter learning; validated on simulated and real-world neural datasets.
@@ -96,8 +96,8 @@ Bare-metal Linux desktop automation server for Claude Code, using python-xlib, p
 | | |
 |---|---|
 | **Languages** | Python, C, SQL, R |
-| **ML / DL** | PyTorch, PyTorch Lightning, TensorFlow, Scikit-Learn, XGBoost, MLflow |
-| **Methods** | Deep learning (CNNs, LSTMs, U-Net), probabilistic graphical models (HMMs, EM), ensemble methods, time-series forecasting, anomaly detection, uncertainty quantification |
+| **ML / DL** | PyTorch, PyTorch Lightning, TensorFlow, Scikit-Learn, XGBoost, OpenCV |
+| **Methods** | Deep learning (CNNs, LSTMs, U-Net), probabilistic graphical models (HMMs, EM), ensemble methods, time-series forecasting, anomaly detection |
 | **HPC / Systems** | CUDA, cuBLAS, cuDNN, OpenMP |
 | **Data Engineering** | ETL pipelines, Pandas, NumPy, Rasterio, GeoPandas, Alteryx |
 | **Visualisation** | Matplotlib, Plotly |
