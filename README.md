@@ -27,15 +27,15 @@ Machine learning engineer with a mathematical and statistical foundation, workin
 
 Applied ML in the European energy domain.
 
-### Novo Nordisk — Associate IT Operation Manager
+### Novo Nordisk — Data & Analytics Specialist
 
 **January 2024 – January 2026**
 
-* Managed local IT infrastructure, automation (OT) systems, and MES support in a GMP-regulated pharmaceutical manufacturing environment.
+* Built Python analytics tooling and SQL data models for operational insights across IT/OT environments in a regulated pharmaceutical setting.
 * Performed statistical analysis on incident and root-cause trends to support reliability improvements.
+* Developed an LSTM-based recurrent neural network for predictive maintenance, integrated with OPC-UA data streams.
 * Deployed monitoring solutions (SCOM, SquaredUp, Grafana) for real-time IT/OT infrastructure observability.
-* Self-initiated cross-team data & analytics work: built Python tooling and SQL data models for operational insights.
-* Self-initiated: developed an LSTM-based recurrent neural network for predictive maintenance, integrated with OPC-UA data streams.
+* Worked across local IT infrastructure, automation (OT) systems, and MES in a GMP-regulated pharmaceutical manufacturing environment.
 
 ---
 
