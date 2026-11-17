@@ -2,7 +2,7 @@
 
 > **Now:** Junior Data & ML Engineer at **Epiq Energy ApS**, Copenhagen (since May 2026) — Azure-based data ingestion and models for intraday electricity trading on Nord Pool.
 
-Data & ML engineer with a mathematical and statistical foundation. B.Sc. in Machine Learning & Data Science from the University of Copenhagen (DIKU), with coursework in measure theory, probability theory, and high-performance programming. I like problems where you have to decide which of a very large number of measurements you can trust — from meteorological sensor data in my bachelor thesis with DMI to electricity-market data today — and side projects that go close to the hardware, from CUDA neural networks in C to Linux desktop automation for AI agents.
+Junior Data & ML Engineer with a mathematical and statistical foundation. B.Sc. in Machine Learning & Data Science from the University of Copenhagen (DIKU), with coursework in measure theory, probability theory, and high-performance programming. I like problems where you have to decide which of a very large number of measurements you can trust — from meteorological sensor data in my bachelor thesis with DMI to electricity-market data today — and side projects that go close to the hardware, from CUDA neural networks in C to Linux desktop automation for AI agents.
 
 ---
 
@@ -12,9 +12,9 @@ Data & ML engineer with a mathematical and statistical foundation. B.Sc. in Mach
 
 | | |
 |---|---|
-| **Mathematics & Statistics** | Probability Theory & Statistics, Linear Algebra, Lebesgue Integral & Measure Theory, Models for Complex Systems |
+| **Mathematics & Statistics** | Probability Theory and Statistics, Linear Algebra in Computer Science, Lebesgue Integral and Measure Theory, Models for Complex Systems |
 | **Machine Learning & AI** | Introduction to Machine Learning, Advanced Deep Learning, Medical Image Analysis |
-| **Computer Science** | Algorithms & Data Structures, High Performance Programming & Systems |
+| **Computer Science** | Algorithms and Data Structures, High Performance Programming and Systems |
 | **Applied Research** | Satellite image segmentation (project outside course scope, with IGN), BSc thesis with DMI (grade 12) |
 
 ---
@@ -35,7 +35,7 @@ Data & ML engineer with a mathematical and statistical foundation. B.Sc. in Mach
 
 IT operations and infrastructure support for GMP pharmaceutical manufacturing, with a data & analytics focus.
 
-* 1st/2nd-line support, 24/7 on-call duty, Windows/Linux infrastructure operations, and PAS-X / LMES+ MES support.
+* 1st/2nd-line support, 24/7 on-call duty, Windows/Linux server operations, and PAS-X / LMES+ MES support.
 * Designed ServiceNow dashboards, reports and KPIs for incident and problem trends; built Power BI dashboards and SQL data models.
 * Set up SCOM, SquaredUp and Grafana monitoring for IT/OT infrastructure.
 * Prepared the document corpus (~400 documents, 256 knowledge-base articles, ~4.3k incidents) and prompt context for an internal GPT-4 support chatbot.
@@ -60,7 +60,7 @@ Benchmarking neural networks (MLP, CNN/LeNet-5) and a broader algorithm catalogu
 
 * 18 backend/device configurations (8 MLP + 10 CNN/LeNet-5): custom CUDA kernels, cuBLAS FFI bindings (Rust), cuDNN and OpenMP.
 * Peak MLP throughput 9.7M samples/s (C CUDA, hidden-size sweep, RTX 3070); 9.15M samples/s for Rust cuBLAS in the same sweep.
-* Mathematical documentation of forward/backward propagation, im2col convolution and pooling.
+* Mathematical derivations for the MLP (forward/backward propagation).
 * Automated benchmarking pipeline with caching and successive-halving hyperparameter tuning.
 
 ### Satellite Image Segmentation of Greenland's Coastline — [`Automatic-Satelitte-Island-Discovery`](https://github.com/JohannesBroens/Automatic-Satelitte-Island-Discovery)
@@ -71,7 +71,7 @@ Project outside course scope at DIKU, in collaboration with the Department of Ge
 * Geospatial preprocessing with Rasterio and GeoPandas; shapefile-based mask generation from IGN ground truth.
 * Trained on a Slurm GPU cluster (NVIDIA RTX A6000).
 
-### Automated Quality Control of Climate Data (BSc Thesis) — [`Climate-Data-QC`](https://github.com/JohannesBroens/Machine-Learning-based-Automatic-Quality-Control-of-Greenlantic-Climate-Data)
+### Machine Learning based Automatic Quality Control of Climate Data (BSc thesis) — [`Climate-Data-QC`](https://github.com/JohannesBroens/Machine-Learning-based-Automatic-Quality-Control-of-Greenlantic-Climate-Data)
 
 Bachelor's thesis in collaboration with the Danish Meteorological Institute (DMI), grade 12.
 
@@ -104,7 +104,7 @@ Bare-metal Linux desktop automation server for Claude Code, using python-xlib, p
 
 ## Teaching & Outreach
 
-* **Teaching Assistant** — Empirical Methodologies & Theory of Science, University of Copenhagen (2021–2023): exercise classes and written feedback.
+* **Teaching Assistant** — Advanced Empirical Methods and Theory of Science (EUM 2), University of Copenhagen (2021–2023): exercise classes and written feedback.
 * **Teaching Assistant** — Kickstarting in Programming course, University of Copenhagen (2021).
 * **Mediator for Students** — outreach to high-school students for DIKU's Machine Learning & Data Science programme (2021–2023).
 
