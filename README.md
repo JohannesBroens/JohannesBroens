@@ -28,6 +28,7 @@ Junior Data & ML Engineer with a mathematical and statistical foundation. B.Sc. 
 * Azure-based ingestion layer consolidating market data and a wide range of external sources into one shared dataset, with incremental, idempotent loading (re-runs and backfills without duplicates).
 * Models and estimates for intraday trading (SIDC) on Nord Pool, and backtests validated against trades that actually executed.
 * Pipeline and model monitoring in Grafana.
+* Built and administer the company's Databricks environment (Azure Databricks).
 
 ### Novo Nordisk A/S — Associate IT Operation Manager
 
@@ -97,7 +98,7 @@ Bare-metal Linux desktop automation server for Claude Code, using python-xlib, p
 | **ML / DL** | PyTorch, XGBoost, scikit-learn |
 | **Methods** | Time-series forecasting, learning-to-rank, image segmentation (U-Net), probabilistic models (HMMs, EM), anomaly detection and data quality on sensor data |
 | **HPC** | CUDA, cuBLAS, cuDNN, OpenMP |
-| **Data** | ETL and data ingestion, Azure, PostgreSQL, Pandas, NumPy, Rasterio, GeoPandas, Power BI, Alteryx |
+| **Data** | ETL and data ingestion, Azure, Databricks, PostgreSQL, Pandas, NumPy, Rasterio, GeoPandas, Power BI, Alteryx |
 | **Tooling** | Linux, Git, Docker, pytest, GitHub Actions, Grafana |
 
 ---
